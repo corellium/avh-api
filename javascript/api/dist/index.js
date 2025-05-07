@@ -237,6 +237,12 @@ Object.defineProperty(exports, "Instance", {
     return _Instance["default"];
   }
 });
+Object.defineProperty(exports, "InstanceAgentState", {
+  enumerable: true,
+  get: function get() {
+    return _InstanceAgentState["default"];
+  }
+});
 Object.defineProperty(exports, "InstanceBootOptions", {
   enumerable: true,
   get: function get() {
@@ -629,6 +635,7 @@ var _GrantTrialRequestResponse = _interopRequireDefault(require("./model/GrantTr
 var _Hook = _interopRequireDefault(require("./model/Hook"));
 var _Image = _interopRequireDefault(require("./model/Image"));
 var _Instance = _interopRequireDefault(require("./model/Instance"));
+var _InstanceAgentState = _interopRequireDefault(require("./model/InstanceAgentState"));
 var _InstanceBootOptions = _interopRequireDefault(require("./model/InstanceBootOptions"));
 var _InstanceBootOptionsAdditionalTag = _interopRequireDefault(require("./model/InstanceBootOptionsAdditionalTag"));
 var _InstanceConsoleEndpoint = _interopRequireDefault(require("./model/InstanceConsoleEndpoint"));
@@ -689,4 +696,4 @@ var _VpnDefinition = _interopRequireDefault(require("./model/VpnDefinition"));
 var _WebPlayerCreateSessionRequest = _interopRequireDefault(require("./model/WebPlayerCreateSessionRequest"));
 var _WebPlayerSession = _interopRequireDefault(require("./model/WebPlayerSession"));
 var _ArmApi = _interopRequireDefault(require("./api/ArmApi"));
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+function _interopRequireDefault(e) { return e && e.__esModule ? e : { "default": e }; }
