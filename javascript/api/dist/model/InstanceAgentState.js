@@ -24,23 +24,19 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
  *
  */
 /**
- * The User model module.
- * @module model/User
+ * The InstanceAgentState model module.
+ * @module model/InstanceAgentState
  * @version 1.0.3
  */
-var User = /*#__PURE__*/function () {
+var InstanceAgentState = /*#__PURE__*/function () {
   /**
-   * Constructs a new <code>User</code>.
-   * /_**
-   * @alias module:model/User
-   * @param id {String} User ID
-   * @param label {String} User Label
-   * @param name {String} User Name
-   * @param email {String} User Email
+   * Constructs a new <code>InstanceAgentState</code>.
+   * 
+   * @alias module:model/InstanceAgentState
    */
-  function User(id, label, name, email) {
-    _classCallCheck(this, User);
-    User.initialize(this, id, label, name, email);
+  function InstanceAgentState() {
+    _classCallCheck(this, InstanceAgentState);
+    InstanceAgentState.initialize(this);
   }
 
   /**
@@ -48,41 +44,27 @@ var User = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  return _createClass(User, null, [{
+  return _createClass(InstanceAgentState, null, [{
     key: "initialize",
-    value: function initialize(obj, id, label, name, email) {
-      obj['id'] = id;
-      obj['label'] = label;
-      obj['name'] = name;
-      obj['email'] = email;
-    }
+    value: function initialize(obj) {}
 
     /**
-     * Constructs a <code>User</code> from a plain JavaScript object, optionally creating a new instance.
+     * Constructs a <code>InstanceAgentState</code> from a plain JavaScript object, optionally creating a new instance.
      * Copies all relevant properties from <code>data</code> to <code>obj</code> if supplied or a new instance if not.
      * @param {Object} data The plain JavaScript object bearing properties of interest.
-     * @param {module:model/User} obj Optional instance to populate.
-     * @return {module:model/User} The populated <code>User</code> instance.
+     * @param {module:model/InstanceAgentState} obj Optional instance to populate.
+     * @return {module:model/InstanceAgentState} The populated <code>InstanceAgentState</code> instance.
      */
   }, {
     key: "constructFromObject",
     value: function constructFromObject(data, obj) {
       if (data) {
-        obj = obj || new User();
-        if (data.hasOwnProperty('id')) {
-          obj['id'] = _ApiClient["default"].convertToType(data['id'], 'String');
+        obj = obj || new InstanceAgentState();
+        if (data.hasOwnProperty('hash')) {
+          obj['hash'] = _ApiClient["default"].convertToType(data['hash'], 'String');
         }
-        if (data.hasOwnProperty('label')) {
-          obj['label'] = _ApiClient["default"].convertToType(data['label'], 'String');
-        }
-        if (data.hasOwnProperty('name')) {
-          obj['name'] = _ApiClient["default"].convertToType(data['name'], 'String');
-        }
-        if (data.hasOwnProperty('email')) {
-          obj['email'] = _ApiClient["default"].convertToType(data['email'], 'String');
-        }
-        if (data.hasOwnProperty('administrator')) {
-          obj['administrator'] = _ApiClient["default"].convertToType(data['administrator'], 'Boolean');
+        if (data.hasOwnProperty('info')) {
+          obj['info'] = _ApiClient["default"].convertToType(data['info'], 'String');
         }
       }
       return obj;
@@ -90,32 +72,14 @@ var User = /*#__PURE__*/function () {
   }]);
 }();
 /**
- * User ID
- * @member {String} id
+ * 
+ * @member {String} hash
  */
-User.prototype['id'] = undefined;
+InstanceAgentState.prototype['hash'] = undefined;
 
 /**
- * User Label
- * @member {String} label
+ * 
+ * @member {String} info
  */
-User.prototype['label'] = undefined;
-
-/**
- * User Name
- * @member {String} name
- */
-User.prototype['name'] = undefined;
-
-/**
- * User Email
- * @member {String} email
- */
-User.prototype['email'] = undefined;
-
-/**
- * the flag that specifies whether user is Administrator or not
- * @member {Boolean} administrator
- */
-User.prototype['administrator'] = undefined;
-var _default = exports["default"] = User;
+InstanceAgentState.prototype['info'] = undefined;
+var _default = exports["default"] = InstanceAgentState;
