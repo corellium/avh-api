@@ -45,7 +45,7 @@ var RotateBody = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(RotateBody, null, [{
+  return _createClass(RotateBody, null, [{
     key: "initialize",
     value: function initialize(obj, orientation) {
       obj['orientation'] = orientation;
@@ -70,7 +70,6 @@ var RotateBody = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return RotateBody;
 }();
 /**
  * Desired orientation
@@ -105,5 +104,4 @@ RotateBody['OrientationEnum'] = {
    */
   "4": 4
 };
-var _default = RotateBody;
-exports["default"] = _default;
+var _default = exports["default"] = RotateBody;

@@ -44,7 +44,7 @@ var UpdateExtension = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(UpdateExtension, null, [{
+  return _createClass(UpdateExtension, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var UpdateExtension = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return UpdateExtension;
 }();
 /**
  * If true, instances requiring this extension can be created or started
  * @member {Boolean} enabled
  */
 UpdateExtension.prototype['enabled'] = undefined;
-var _default = UpdateExtension;
-exports["default"] = _default;
+var _default = exports["default"] = UpdateExtension;

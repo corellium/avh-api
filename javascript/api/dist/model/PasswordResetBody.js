@@ -47,7 +47,7 @@ var PasswordResetBody = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(PasswordResetBody, null, [{
+  return _createClass(PasswordResetBody, null, [{
     key: "initialize",
     value: function initialize(obj, token, totpToken, newPassword) {
       obj['token'] = token;
@@ -80,7 +80,6 @@ var PasswordResetBody = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return PasswordResetBody;
 }();
 /**
  * Password reset token
@@ -99,5 +98,4 @@ PasswordResetBody.prototype['totpToken'] = undefined;
  * @member {String} new-password
  */
 PasswordResetBody.prototype['new-password'] = undefined;
-var _default = PasswordResetBody;
-exports["default"] = _default;
+var _default = exports["default"] = PasswordResetBody;

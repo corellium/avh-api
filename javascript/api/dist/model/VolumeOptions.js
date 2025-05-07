@@ -44,7 +44,7 @@ var VolumeOptions = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(VolumeOptions, null, [{
+  return _createClass(VolumeOptions, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -73,7 +73,6 @@ var VolumeOptions = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return VolumeOptions;
 }();
 /**
  * GB
@@ -92,5 +91,4 @@ VolumeOptions.prototype['partitions'] = undefined;
  * @member {String} computeNode
  */
 VolumeOptions.prototype['computeNode'] = undefined;
-var _default = VolumeOptions;
-exports["default"] = _default;
+var _default = exports["default"] = VolumeOptions;

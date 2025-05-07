@@ -47,7 +47,7 @@ var GpioStateDefinition = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(GpioStateDefinition, null, [{
+  return _createClass(GpioStateDefinition, null, [{
     key: "initialize",
     value: function initialize(obj, bitCount, banks) {
       obj['bitCount'] = bitCount;
@@ -76,7 +76,6 @@ var GpioStateDefinition = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return GpioStateDefinition;
 }();
 /**
  * count of bits in members of this bank
@@ -89,5 +88,4 @@ GpioStateDefinition.prototype['bitCount'] = undefined;
  * @member {Array.<Array.<module:model/Bit>>} banks
  */
 GpioStateDefinition.prototype['banks'] = undefined;
-var _default = GpioStateDefinition;
-exports["default"] = _default;
+var _default = exports["default"] = GpioStateDefinition;

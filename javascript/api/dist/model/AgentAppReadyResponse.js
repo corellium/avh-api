@@ -45,7 +45,7 @@ var AgentAppReadyResponse = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(AgentAppReadyResponse, null, [{
+  return _createClass(AgentAppReadyResponse, null, [{
     key: "initialize",
     value: function initialize(obj, ready) {
       obj['ready'] = ready;
@@ -70,12 +70,10 @@ var AgentAppReadyResponse = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return AgentAppReadyResponse;
 }();
 /**
  * 
  * @member {Boolean} ready
  */
 AgentAppReadyResponse.prototype['ready'] = undefined;
-var _default = AgentAppReadyResponse;
-exports["default"] = _default;
+var _default = exports["default"] = AgentAppReadyResponse;

@@ -45,7 +45,7 @@ var Snapshot = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Snapshot, null, [{
+  return _createClass(Snapshot, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -89,7 +89,6 @@ var Snapshot = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Snapshot;
 }();
 /**
  * Snapshot ID
@@ -137,5 +136,4 @@ Snapshot.prototype['live'] = undefined;
  * @member {Boolean} local
  */
 Snapshot.prototype['local'] = undefined;
-var _default = Snapshot;
-exports["default"] = _default;
+var _default = exports["default"] = Snapshot;

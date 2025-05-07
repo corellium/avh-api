@@ -44,7 +44,7 @@ var TeamCreate = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(TeamCreate, null, [{
+  return _createClass(TeamCreate, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var TeamCreate = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return TeamCreate;
 }();
 /**
  * ID of newly created team
  * @member {String} id
  */
 TeamCreate.prototype['id'] = undefined;
-var _default = TeamCreate;
-exports["default"] = _default;
+var _default = exports["default"] = TeamCreate;

@@ -46,7 +46,7 @@ var ApiNotFoundError = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(ApiNotFoundError, null, [{
+  return _createClass(ApiNotFoundError, null, [{
     key: "initialize",
     value: function initialize(obj, error, errorID) {
       obj['error'] = error;
@@ -81,7 +81,6 @@ var ApiNotFoundError = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return ApiNotFoundError;
 }();
 /**
  * Error text
@@ -106,5 +105,4 @@ ApiNotFoundError.prototype['name'] = undefined;
  * @member {Object} params
  */
 ApiNotFoundError.prototype['params'] = undefined;
-var _default = ApiNotFoundError;
-exports["default"] = _default;
+var _default = exports["default"] = ApiNotFoundError;

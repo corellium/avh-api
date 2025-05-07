@@ -45,7 +45,7 @@ var Trial = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Trial, null, [{
+  return _createClass(Trial, null, [{
     key: "initialize",
     value: function initialize(obj, duration) {
       obj['duration'] = duration;
@@ -70,12 +70,10 @@ var Trial = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Trial;
 }();
 /**
  * Duration in days
  * @member {Number} duration
  */
 Trial.prototype['duration'] = undefined;
-var _default = Trial;
-exports["default"] = _default;
+var _default = exports["default"] = Trial;

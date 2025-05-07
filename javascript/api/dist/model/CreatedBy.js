@@ -44,7 +44,7 @@ var CreatedBy = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(CreatedBy, null, [{
+  return _createClass(CreatedBy, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -76,7 +76,6 @@ var CreatedBy = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return CreatedBy;
 }();
 /**
  * User Identifier
@@ -101,5 +100,4 @@ CreatedBy.prototype['label'] = undefined;
  * @member {Boolean} deleted
  */
 CreatedBy.prototype['deleted'] = undefined;
-var _default = CreatedBy;
-exports["default"] = _default;
+var _default = exports["default"] = CreatedBy;

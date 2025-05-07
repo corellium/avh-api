@@ -44,7 +44,7 @@ var InstanceStopOptions = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(InstanceStopOptions, null, [{
+  return _createClass(InstanceStopOptions, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var InstanceStopOptions = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return InstanceStopOptions;
 }();
 /**
  * Request VM OS power down
  * @member {Boolean} soft
  */
 InstanceStopOptions.prototype['soft'] = undefined;
-var _default = InstanceStopOptions;
-exports["default"] = _default;
+var _default = exports["default"] = InstanceStopOptions;

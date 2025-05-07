@@ -47,7 +47,7 @@ var CouponOptions = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(CouponOptions, null, [{
+  return _createClass(CouponOptions, null, [{
     key: "initialize",
     value: function initialize(obj, type, amount, used) {
       obj['type'] = type;
@@ -80,7 +80,6 @@ var CouponOptions = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return CouponOptions;
 }();
 /**
  * 
@@ -122,5 +121,4 @@ CouponOptions['TypeEnum'] = {
    */
   "absolute": "absolute"
 };
-var _default = CouponOptions;
-exports["default"] = _default;
+var _default = exports["default"] = CouponOptions;

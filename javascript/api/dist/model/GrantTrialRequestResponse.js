@@ -44,7 +44,7 @@ var GrantTrialRequestResponse = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(GrantTrialRequestResponse, null, [{
+  return _createClass(GrantTrialRequestResponse, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var GrantTrialRequestResponse = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return GrantTrialRequestResponse;
 }();
 /**
  * Trial request code
  * @member {String} code
  */
 GrantTrialRequestResponse.prototype['code'] = undefined;
-var _default = GrantTrialRequestResponse;
-exports["default"] = _default;
+var _default = exports["default"] = GrantTrialRequestResponse;

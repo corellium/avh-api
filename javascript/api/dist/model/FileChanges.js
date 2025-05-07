@@ -44,7 +44,7 @@ var FileChanges = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(FileChanges, null, [{
+  return _createClass(FileChanges, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -76,7 +76,6 @@ var FileChanges = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return FileChanges;
 }();
 /**
  * Optional New path
@@ -101,5 +100,4 @@ FileChanges.prototype['uid'] = undefined;
  * @member {Number} gid
  */
 FileChanges.prototype['gid'] = undefined;
-var _default = FileChanges;
-exports["default"] = _default;
+var _default = exports["default"] = FileChanges;

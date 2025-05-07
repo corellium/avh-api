@@ -44,7 +44,7 @@ var Invitation = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Invitation, null, [{
+  return _createClass(Invitation, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -73,7 +73,6 @@ var Invitation = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Invitation;
 }();
 /**
  * Invite ID
@@ -92,5 +91,4 @@ Invitation.prototype['email'] = undefined;
  * @member {Object} settings
  */
 Invitation.prototype['settings'] = undefined;
-var _default = Invitation;
-exports["default"] = _default;
+var _default = exports["default"] = Invitation;

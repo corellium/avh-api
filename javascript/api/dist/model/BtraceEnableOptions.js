@@ -44,7 +44,7 @@ var BtraceEnableOptions = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(BtraceEnableOptions, null, [{
+  return _createClass(BtraceEnableOptions, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var BtraceEnableOptions = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return BtraceEnableOptions;
 }();
 /**
  * 
  * @member {Array.<Array.<String>>} ranges
  */
 BtraceEnableOptions.prototype['ranges'] = undefined;
-var _default = BtraceEnableOptions;
-exports["default"] = _default;
+var _default = exports["default"] = BtraceEnableOptions;

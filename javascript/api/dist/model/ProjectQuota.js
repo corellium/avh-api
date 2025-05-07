@@ -44,7 +44,7 @@ var ProjectQuota = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(ProjectQuota, null, [{
+  return _createClass(ProjectQuota, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -73,7 +73,6 @@ var ProjectQuota = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return ProjectQuota;
 }();
 /**
  * 
@@ -92,5 +91,4 @@ ProjectQuota.prototype['instances'] = undefined;
  * @member {Number} ram
  */
 ProjectQuota.prototype['ram'] = undefined;
-var _default = ProjectQuota;
-exports["default"] = _default;
+var _default = exports["default"] = ProjectQuota;

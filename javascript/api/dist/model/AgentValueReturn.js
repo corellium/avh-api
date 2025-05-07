@@ -44,7 +44,7 @@ var AgentValueReturn = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(AgentValueReturn, null, [{
+  return _createClass(AgentValueReturn, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var AgentValueReturn = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return AgentValueReturn;
 }();
 /**
  * The requested value
  * @member {String} value
  */
 AgentValueReturn.prototype['value'] = undefined;
-var _default = AgentValueReturn;
-exports["default"] = _default;
+var _default = exports["default"] = AgentValueReturn;

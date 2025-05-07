@@ -45,7 +45,7 @@ var SnapshotCreationOptions = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(SnapshotCreationOptions, null, [{
+  return _createClass(SnapshotCreationOptions, null, [{
     key: "initialize",
     value: function initialize(obj, name) {
       obj['name'] = name;
@@ -70,12 +70,10 @@ var SnapshotCreationOptions = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return SnapshotCreationOptions;
 }();
 /**
  * Snapshot name
  * @member {String} name
  */
 SnapshotCreationOptions.prototype['name'] = undefined;
-var _default = SnapshotCreationOptions;
-exports["default"] = _default;
+var _default = exports["default"] = SnapshotCreationOptions;

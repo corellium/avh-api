@@ -44,7 +44,7 @@ var KernelThread = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(KernelThread, null, [{
+  return _createClass(KernelThread, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -73,7 +73,6 @@ var KernelThread = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return KernelThread;
 }();
 /**
  * Kernel Thread ID
@@ -92,5 +91,4 @@ KernelThread.prototype['tid'] = undefined;
  * @member {Array.<String>} stack
  */
 KernelThread.prototype['stack'] = undefined;
-var _default = KernelThread;
-exports["default"] = _default;
+var _default = exports["default"] = KernelThread;

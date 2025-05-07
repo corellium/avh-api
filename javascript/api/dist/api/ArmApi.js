@@ -69,7 +69,7 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 * @module api/ArmApi
 * @version 1.0.3
 */
-var ArmApi = /*#__PURE__*/function () {
+var ArmApi = exports["default"] = /*#__PURE__*/function () {
   /**
   * Constructs a new ArmApi. 
   * @alias module:api/ArmApi
@@ -88,7 +88,7 @@ var ArmApi = /*#__PURE__*/function () {
    * @param {String} trialEmail Trial Email
    * @return {Promise} a {@link https://www.promisejs.org/|Promise}, with an object containing data of type {@link Object} and HTTP response
    */
-  _createClass(ArmApi, [{
+  return _createClass(ArmApi, [{
     key: "trialStatusWithHttpInfo",
     value: function trialStatusWithHttpInfo(trialEmail) {
       var postBody = null;
@@ -3938,6 +3938,4 @@ var ArmApi = /*#__PURE__*/function () {
       });
     }
   }]);
-  return ArmApi;
 }();
-exports["default"] = ArmApi;

@@ -116,7 +116,7 @@ var ApiClient = /*#__PURE__*/function () {
   * @param param The actual parameter.
   * @returns {String} The string representation of <code>param</code>.
   */
-  _createClass(ApiClient, [{
+  return _createClass(ApiClient, [{
     key: "paramToString",
     value: function paramToString(param) {
       if (param == undefined || param == null) {
@@ -665,7 +665,6 @@ var ApiClient = /*#__PURE__*/function () {
       }
     }
   }]);
-  return ApiClient;
 }();
 /**
  * Enumeration of collection format separator strategies.
@@ -705,5 +704,4 @@ ApiClient.CollectionFormatEnum = {
 * @type {module:ApiClient}
 */
 ApiClient.instance = new ApiClient();
-var _default = ApiClient;
-exports["default"] = _default;
+var _default = exports["default"] = ApiClient;

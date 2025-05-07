@@ -29,51 +29,51 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 * @enum {}
 * @readonly
 */
-var Button = /*#__PURE__*/function () {
+var Button = exports["default"] = /*#__PURE__*/function () {
   function Button() {
     _classCallCheck(this, Button);
+    /**
+     * value: "finger"
+     * @const
+     */
     _defineProperty(this, "finger", "finger");
+    /**
+     * value: "homeButton"
+     * @const
+     */
     _defineProperty(this, "homeButton", "homeButton");
+    /**
+     * value: "holdButton"
+     * @const
+     */
     _defineProperty(this, "holdButton", "holdButton");
+    /**
+     * value: "volumeUp"
+     * @const
+     */
     _defineProperty(this, "volumeUp", "volumeUp");
+    /**
+     * value: "volumeDown"
+     * @const
+     */
     _defineProperty(this, "volumeDown", "volumeDown");
+    /**
+     * value: "ringerSwitch"
+     * @const
+     */
     _defineProperty(this, "ringerSwitch", "ringerSwitch");
+    /**
+     * value: "backButton"
+     * @const
+     */
     _defineProperty(this, "backButton", "backButton");
+    /**
+     * value: "overviewButton"
+     * @const
+     */
     _defineProperty(this, "overviewButton", "overviewButton");
   }
-  /**
-   * value: "finger"
-   * @const
-   */
-  /**
-   * value: "homeButton"
-   * @const
-   */
-  /**
-   * value: "holdButton"
-   * @const
-   */
-  /**
-   * value: "volumeUp"
-   * @const
-   */
-  /**
-   * value: "volumeDown"
-   * @const
-   */
-  /**
-   * value: "ringerSwitch"
-   * @const
-   */
-  /**
-   * value: "backButton"
-   * @const
-   */
-  /**
-   * value: "overviewButton"
-   * @const
-   */
-  _createClass(Button, null, [{
+  return _createClass(Button, null, [{
     key: "constructFromObject",
     value:
     /**
@@ -85,6 +85,4 @@ var Button = /*#__PURE__*/function () {
       return object;
     }
   }]);
-  return Button;
 }();
-exports["default"] = Button;

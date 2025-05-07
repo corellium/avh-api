@@ -44,7 +44,7 @@ var ProjectUsage = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(ProjectUsage, null, [{
+  return _createClass(ProjectUsage, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -76,7 +76,6 @@ var ProjectUsage = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return ProjectUsage;
 }();
 /**
  * 
@@ -101,5 +100,4 @@ ProjectUsage.prototype['ram'] = undefined;
  * @member {Number} gpu
  */
 ProjectUsage.prototype['gpu'] = undefined;
-var _default = ProjectUsage;
-exports["default"] = _default;
+var _default = exports["default"] = ProjectUsage;

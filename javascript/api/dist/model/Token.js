@@ -45,7 +45,7 @@ var Token = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Token, null, [{
+  return _createClass(Token, null, [{
     key: "initialize",
     value: function initialize(obj, token) {
       obj['token'] = token;
@@ -73,7 +73,6 @@ var Token = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Token;
 }();
 /**
  * 
@@ -86,5 +85,4 @@ Token.prototype['token'] = undefined;
  * @member {Date} expiration
  */
 Token.prototype['expiration'] = undefined;
-var _default = Token;
-exports["default"] = _default;
+var _default = exports["default"] = Token;

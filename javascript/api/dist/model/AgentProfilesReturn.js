@@ -45,7 +45,7 @@ var AgentProfilesReturn = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(AgentProfilesReturn, null, [{
+  return _createClass(AgentProfilesReturn, null, [{
     key: "initialize",
     value: function initialize(obj, profiles) {
       obj['profiles'] = profiles;
@@ -70,12 +70,10 @@ var AgentProfilesReturn = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return AgentProfilesReturn;
 }();
 /**
  * 
  * @member {Array.<String>} profiles
  */
 AgentProfilesReturn.prototype['profiles'] = undefined;
-var _default = AgentProfilesReturn;
-exports["default"] = _default;
+var _default = exports["default"] = AgentProfilesReturn;

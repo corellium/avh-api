@@ -44,7 +44,7 @@ var SnapshotStatus = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(SnapshotStatus, null, [{
+  return _createClass(SnapshotStatus, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -70,7 +70,6 @@ var SnapshotStatus = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return SnapshotStatus;
 }();
 /**
  * 
@@ -83,5 +82,4 @@ SnapshotStatus.prototype['task'] = undefined;
  * @member {Boolean} created
  */
 SnapshotStatus.prototype['created'] = undefined;
-var _default = SnapshotStatus;
-exports["default"] = _default;
+var _default = exports["default"] = SnapshotStatus;

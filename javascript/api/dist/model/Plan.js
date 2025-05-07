@@ -46,7 +46,7 @@ var Plan = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Plan, null, [{
+  return _createClass(Plan, null, [{
     key: "initialize",
     value: function initialize(obj, licenseType, cores) {
       obj['licenseType'] = licenseType;
@@ -75,7 +75,6 @@ var Plan = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Plan;
 }();
 /**
  * 
@@ -131,5 +130,4 @@ Plan['LicenseTypeEnum'] = {
    */
   "unrestricted": "unrestricted"
 };
-var _default = Plan;
-exports["default"] = _default;
+var _default = exports["default"] = Plan;

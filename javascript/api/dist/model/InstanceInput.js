@@ -53,7 +53,7 @@ var InstanceInput = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(InstanceInput, null, [{
+  return _createClass(InstanceInput, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -88,7 +88,6 @@ var InstanceInput = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return InstanceInput;
 }();
 /**
  * Finger Positions
@@ -137,5 +136,4 @@ _TouchCurveInput["default"].prototype['end'] = undefined;
  * @member {String} text
  */
 _TextInput["default"].prototype['text'] = undefined;
-var _default = InstanceInput;
-exports["default"] = _default;
+var _default = exports["default"] = InstanceInput;

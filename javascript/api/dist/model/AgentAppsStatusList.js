@@ -45,7 +45,7 @@ var AgentAppsStatusList = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(AgentAppsStatusList, null, [{
+  return _createClass(AgentAppsStatusList, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -71,7 +71,6 @@ var AgentAppsStatusList = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return AgentAppsStatusList;
 }();
 /**
  * 
@@ -84,5 +83,4 @@ AgentAppsStatusList.prototype['apps'] = undefined;
  * @member {String} frontmost
  */
 AgentAppsStatusList.prototype['frontmost'] = undefined;
-var _default = AgentAppsStatusList;
-exports["default"] = _default;
+var _default = exports["default"] = AgentAppsStatusList;

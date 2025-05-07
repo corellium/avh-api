@@ -45,7 +45,7 @@ var V1LoadExtensionParameters = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(V1LoadExtensionParameters, null, [{
+  return _createClass(V1LoadExtensionParameters, null, [{
     key: "initialize",
     value: function initialize(obj, imageId) {
       obj['imageId'] = imageId;
@@ -70,12 +70,10 @@ var V1LoadExtensionParameters = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return V1LoadExtensionParameters;
 }();
 /**
  * The uuid of the image to load
  * @member {String} imageId
  */
 V1LoadExtensionParameters.prototype['imageId'] = undefined;
-var _default = V1LoadExtensionParameters;
-exports["default"] = _default;
+var _default = exports["default"] = V1LoadExtensionParameters;

@@ -46,7 +46,7 @@ var TrialRequestOptions = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(TrialRequestOptions, null, [{
+  return _createClass(TrialRequestOptions, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -84,7 +84,6 @@ var TrialRequestOptions = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return TrialRequestOptions;
 }();
 /**
  * @member {module:model/Address} address
@@ -119,5 +118,4 @@ TrialRequestOptions.prototype['enterprise'] = undefined;
  * @member {String} token
  */
 TrialRequestOptions.prototype['token'] = undefined;
-var _default = TrialRequestOptions;
-exports["default"] = _default;
+var _default = exports["default"] = TrialRequestOptions;

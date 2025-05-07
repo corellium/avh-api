@@ -44,7 +44,7 @@ var TrialRequestMetadata = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(TrialRequestMetadata, null, [{
+  return _createClass(TrialRequestMetadata, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -82,7 +82,6 @@ var TrialRequestMetadata = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return TrialRequestMetadata;
 }();
 /**
  * 
@@ -119,5 +118,4 @@ TrialRequestMetadata.prototype['pentest'] = undefined;
  * @member {String} other
  */
 TrialRequestMetadata.prototype['other'] = undefined;
-var _default = TrialRequestMetadata;
-exports["default"] = _default;
+var _default = exports["default"] = TrialRequestMetadata;

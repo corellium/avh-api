@@ -47,7 +47,7 @@ var PasswordChangeBody = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(PasswordChangeBody, null, [{
+  return _createClass(PasswordChangeBody, null, [{
     key: "initialize",
     value: function initialize(obj, user, oldPassword, newPassword) {
       obj['user'] = user;
@@ -80,7 +80,6 @@ var PasswordChangeBody = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return PasswordChangeBody;
 }();
 /**
  * userId
@@ -99,5 +98,4 @@ PasswordChangeBody.prototype['old-password'] = undefined;
  * @member {String} new-password
  */
 PasswordChangeBody.prototype['new-password'] = undefined;
-var _default = PasswordChangeBody;
-exports["default"] = _default;
+var _default = exports["default"] = PasswordChangeBody;

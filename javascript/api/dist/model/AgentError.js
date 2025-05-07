@@ -46,7 +46,7 @@ var AgentError = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(AgentError, null, [{
+  return _createClass(AgentError, null, [{
     key: "initialize",
     value: function initialize(obj, error, errorID) {
       obj['error'] = error;
@@ -78,7 +78,6 @@ var AgentError = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return AgentError;
 }();
 /**
  * The error encountered by the agent
@@ -110,5 +109,4 @@ AgentError['ErrorIDEnum'] = {
    */
   "AgentError": "AgentError"
 };
-var _default = AgentError;
-exports["default"] = _default;
+var _default = exports["default"] = AgentError;

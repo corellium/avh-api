@@ -45,7 +45,7 @@ var DomainOptions = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(DomainOptions, null, [{
+  return _createClass(DomainOptions, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -71,7 +71,6 @@ var DomainOptions = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return DomainOptions;
 }();
 /**
  * if true, totp is required
@@ -83,5 +82,4 @@ DomainOptions.prototype['totpRequired'] = undefined;
  * @member {module:model/TrialExtension} trialExtension
  */
 DomainOptions.prototype['trialExtension'] = undefined;
-var _default = DomainOptions;
-exports["default"] = _default;
+var _default = exports["default"] = DomainOptions;

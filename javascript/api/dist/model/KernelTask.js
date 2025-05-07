@@ -45,7 +45,7 @@ var KernelTask = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(KernelTask, null, [{
+  return _createClass(KernelTask, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -77,7 +77,6 @@ var KernelTask = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return KernelTask;
 }();
 /**
  * Kernel Task ID
@@ -102,5 +101,4 @@ KernelTask.prototype['pid'] = undefined;
  * @member {Array.<module:model/KernelThread>} threads
  */
 KernelTask.prototype['threads'] = undefined;
-var _default = KernelTask;
-exports["default"] = _default;
+var _default = exports["default"] = KernelTask;

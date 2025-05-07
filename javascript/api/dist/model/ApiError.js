@@ -46,7 +46,7 @@ var ApiError = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(ApiError, null, [{
+  return _createClass(ApiError, null, [{
     key: "initialize",
     value: function initialize(obj, error, errorID) {
       obj['error'] = error;
@@ -78,7 +78,6 @@ var ApiError = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return ApiError;
 }();
 /**
  * Error text
@@ -97,5 +96,4 @@ ApiError.prototype['errorID'] = undefined;
  * @member {String} originalError
  */
 ApiError.prototype['originalError'] = undefined;
-var _default = ApiError;
-exports["default"] = _default;
+var _default = exports["default"] = ApiError;

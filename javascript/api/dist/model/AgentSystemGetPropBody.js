@@ -45,7 +45,7 @@ var AgentSystemGetPropBody = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(AgentSystemGetPropBody, null, [{
+  return _createClass(AgentSystemGetPropBody, null, [{
     key: "initialize",
     value: function initialize(obj, property) {
       obj['property'] = property;
@@ -70,12 +70,10 @@ var AgentSystemGetPropBody = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return AgentSystemGetPropBody;
 }();
 /**
  * 
  * @member {String} property
  */
 AgentSystemGetPropBody.prototype['property'] = undefined;
-var _default = AgentSystemGetPropBody;
-exports["default"] = _default;
+var _default = exports["default"] = AgentSystemGetPropBody;

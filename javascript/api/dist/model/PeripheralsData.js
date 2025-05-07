@@ -44,7 +44,7 @@ var PeripheralsData = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(PeripheralsData, null, [{
+  return _createClass(PeripheralsData, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -91,7 +91,6 @@ var PeripheralsData = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return PeripheralsData;
 }();
 /**
  * 
@@ -146,5 +145,4 @@ PeripheralsData.prototype['pressure'] = undefined;
  * @member {Number} humidity
  */
 PeripheralsData.prototype['humidity'] = undefined;
-var _default = PeripheralsData;
-exports["default"] = _default;
+var _default = exports["default"] = PeripheralsData;

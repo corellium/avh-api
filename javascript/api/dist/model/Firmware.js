@@ -44,7 +44,7 @@ var Firmware = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Firmware, null, [{
+  return _createClass(Firmware, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -109,7 +109,6 @@ var Firmware = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Firmware;
 }();
 /**
  * 
@@ -200,5 +199,4 @@ Firmware.prototype['orig_url'] = undefined;
  * @member {String} filename
  */
 Firmware.prototype['filename'] = undefined;
-var _default = Firmware;
-exports["default"] = _default;
+var _default = exports["default"] = Firmware;

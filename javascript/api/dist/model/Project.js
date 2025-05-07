@@ -48,7 +48,7 @@ var Project = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Project, null, [{
+  return _createClass(Project, null, [{
     key: "initialize",
     value: function initialize(obj, id) {
       obj['id'] = id;
@@ -85,7 +85,6 @@ var Project = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Project;
 }();
 /**
  * Project Identifier
@@ -113,5 +112,4 @@ Project.prototype['quotas'] = undefined;
  * @member {module:model/ProjectUsage} quotasUsed
  */
 Project.prototype['quotasUsed'] = undefined;
-var _default = Project;
-exports["default"] = _default;
+var _default = exports["default"] = Project;

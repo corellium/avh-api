@@ -47,7 +47,7 @@ var WebPlayerSession = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(WebPlayerSession, null, [{
+  return _createClass(WebPlayerSession, null, [{
     key: "initialize",
     value: function initialize(obj, identifier, token, expiration) {
       obj['identifier'] = identifier;
@@ -80,7 +80,6 @@ var WebPlayerSession = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return WebPlayerSession;
 }();
 /**
  * New Session Identifier
@@ -99,5 +98,4 @@ WebPlayerSession.prototype['token'] = undefined;
  * @member {Number} expiration
  */
 WebPlayerSession.prototype['expiration'] = undefined;
-var _default = WebPlayerSession;
-exports["default"] = _default;
+var _default = exports["default"] = WebPlayerSession;

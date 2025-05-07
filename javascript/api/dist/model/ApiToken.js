@@ -45,7 +45,7 @@ var ApiToken = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(ApiToken, null, [{
+  return _createClass(ApiToken, null, [{
     key: "initialize",
     value: function initialize(obj, apiToken) {
       obj['apiToken'] = apiToken;
@@ -70,12 +70,10 @@ var ApiToken = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return ApiToken;
 }();
 /**
  * 
  * @member {String} apiToken
  */
 ApiToken.prototype['apiToken'] = undefined;
-var _default = ApiToken;
-exports["default"] = _default;
+var _default = exports["default"] = ApiToken;

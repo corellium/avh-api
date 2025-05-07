@@ -46,7 +46,7 @@ var ApiInternalConsistencyError = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(ApiInternalConsistencyError, null, [{
+  return _createClass(ApiInternalConsistencyError, null, [{
     key: "initialize",
     value: function initialize(obj, error, errorID) {
       obj['error'] = error;
@@ -78,7 +78,6 @@ var ApiInternalConsistencyError = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return ApiInternalConsistencyError;
 }();
 /**
  * Error text
@@ -97,5 +96,4 @@ ApiInternalConsistencyError.prototype['errorID'] = undefined;
  * @member {String} originalError
  */
 ApiInternalConsistencyError.prototype['originalError'] = undefined;
-var _default = ApiInternalConsistencyError;
-exports["default"] = _default;
+var _default = exports["default"] = ApiInternalConsistencyError;

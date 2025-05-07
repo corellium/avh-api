@@ -44,7 +44,7 @@ var InstanceNetmonState = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(InstanceNetmonState, null, [{
+  return _createClass(InstanceNetmonState, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -73,7 +73,6 @@ var InstanceNetmonState = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return InstanceNetmonState;
 }();
 /**
  * 
@@ -92,5 +91,4 @@ InstanceNetmonState.prototype['info'] = undefined;
  * @member {Boolean} enabled
  */
 InstanceNetmonState.prototype['enabled'] = undefined;
-var _default = InstanceNetmonState;
-exports["default"] = _default;
+var _default = exports["default"] = InstanceNetmonState;

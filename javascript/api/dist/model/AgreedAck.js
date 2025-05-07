@@ -44,7 +44,7 @@ var AgreedAck = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(AgreedAck, null, [{
+  return _createClass(AgreedAck, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var AgreedAck = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return AgreedAck;
 }();
 /**
  * Date agreed
  * @member {Date} agreedToTerms
  */
 AgreedAck.prototype['agreedToTerms'] = undefined;
-var _default = AgreedAck;
-exports["default"] = _default;
+var _default = exports["default"] = AgreedAck;

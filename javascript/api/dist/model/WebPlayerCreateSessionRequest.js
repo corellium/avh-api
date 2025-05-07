@@ -49,7 +49,7 @@ var WebPlayerCreateSessionRequest = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(WebPlayerCreateSessionRequest, null, [{
+  return _createClass(WebPlayerCreateSessionRequest, null, [{
     key: "initialize",
     value: function initialize(obj, projectId, instanceId, expiresIn, features) {
       obj['projectId'] = projectId;
@@ -89,7 +89,6 @@ var WebPlayerCreateSessionRequest = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return WebPlayerCreateSessionRequest;
 }();
 /**
  * Project Identifier
@@ -119,5 +118,4 @@ WebPlayerCreateSessionRequest.prototype['features'] = undefined;
  * @member {String} clientId
  */
 WebPlayerCreateSessionRequest.prototype['clientId'] = undefined;
-var _default = WebPlayerCreateSessionRequest;
-exports["default"] = _default;
+var _default = exports["default"] = WebPlayerCreateSessionRequest;

@@ -47,7 +47,7 @@ var InstanceReturn = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(InstanceReturn, null, [{
+  return _createClass(InstanceReturn, null, [{
     key: "initialize",
     value: function initialize(obj, id, state) {
       obj['id'] = id;
@@ -76,7 +76,6 @@ var InstanceReturn = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return InstanceReturn;
 }();
 /**
  * Instance ID
@@ -88,5 +87,4 @@ InstanceReturn.prototype['id'] = undefined;
  * @member {module:model/InstanceState} state
  */
 InstanceReturn.prototype['state'] = undefined;
-var _default = InstanceReturn;
-exports["default"] = _default;
+var _default = exports["default"] = InstanceReturn;

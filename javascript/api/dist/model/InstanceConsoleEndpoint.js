@@ -44,7 +44,7 @@ var InstanceConsoleEndpoint = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(InstanceConsoleEndpoint, null, [{
+  return _createClass(InstanceConsoleEndpoint, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var InstanceConsoleEndpoint = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return InstanceConsoleEndpoint;
 }();
 /**
  * Console Websocket URL
  * @member {String} url
  */
 InstanceConsoleEndpoint.prototype['url'] = undefined;
-var _default = InstanceConsoleEndpoint;
-exports["default"] = _default;
+var _default = exports["default"] = InstanceConsoleEndpoint;

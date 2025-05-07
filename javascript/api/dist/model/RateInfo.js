@@ -44,7 +44,7 @@ var RateInfo = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(RateInfo, null, [{
+  return _createClass(RateInfo, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -70,7 +70,6 @@ var RateInfo = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return RateInfo;
 }();
 /**
  * The amount per second, in microcents (USD), that this instance charges to be running.
@@ -83,5 +82,4 @@ RateInfo.prototype['onRateMicrocents'] = undefined;
  * @member {Number} offRateMicrocents
  */
 RateInfo.prototype['offRateMicrocents'] = undefined;
-var _default = RateInfo;
-exports["default"] = _default;
+var _default = exports["default"] = RateInfo;

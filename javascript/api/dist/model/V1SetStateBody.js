@@ -46,7 +46,7 @@ var V1SetStateBody = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(V1SetStateBody, null, [{
+  return _createClass(V1SetStateBody, null, [{
     key: "initialize",
     value: function initialize(obj, state) {
       obj['state'] = state;
@@ -71,11 +71,9 @@ var V1SetStateBody = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return V1SetStateBody;
 }();
 /**
  * @member {module:model/InstanceState} state
  */
 V1SetStateBody.prototype['state'] = undefined;
-var _default = V1SetStateBody;
-exports["default"] = _default;
+var _default = exports["default"] = V1SetStateBody;

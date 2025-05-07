@@ -29,56 +29,56 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 * @enum {}
 * @readonly
 */
-var InstanceState = /*#__PURE__*/function () {
+var InstanceState = exports["default"] = /*#__PURE__*/function () {
   function InstanceState() {
     _classCallCheck(this, InstanceState);
+    /**
+     * value: "on"
+     * @const
+     */
     _defineProperty(this, "on", "on");
+    /**
+     * value: "off"
+     * @const
+     */
     _defineProperty(this, "off", "off");
+    /**
+     * value: "booting"
+     * @const
+     */
     _defineProperty(this, "booting", "booting");
+    /**
+     * value: "deleting"
+     * @const
+     */
     _defineProperty(this, "deleting", "deleting");
+    /**
+     * value: "creating"
+     * @const
+     */
     _defineProperty(this, "creating", "creating");
+    /**
+     * value: "restoring"
+     * @const
+     */
     _defineProperty(this, "restoring", "restoring");
+    /**
+     * value: "paused"
+     * @const
+     */
     _defineProperty(this, "paused", "paused");
+    /**
+     * value: "rebooting"
+     * @const
+     */
     _defineProperty(this, "rebooting", "rebooting");
+    /**
+     * value: "error"
+     * @const
+     */
     _defineProperty(this, "error", "error");
   }
-  /**
-   * value: "on"
-   * @const
-   */
-  /**
-   * value: "off"
-   * @const
-   */
-  /**
-   * value: "booting"
-   * @const
-   */
-  /**
-   * value: "deleting"
-   * @const
-   */
-  /**
-   * value: "creating"
-   * @const
-   */
-  /**
-   * value: "restoring"
-   * @const
-   */
-  /**
-   * value: "paused"
-   * @const
-   */
-  /**
-   * value: "rebooting"
-   * @const
-   */
-  /**
-   * value: "error"
-   * @const
-   */
-  _createClass(InstanceState, null, [{
+  return _createClass(InstanceState, null, [{
     key: "constructFromObject",
     value:
     /**
@@ -90,6 +90,4 @@ var InstanceState = /*#__PURE__*/function () {
       return object;
     }
   }]);
-  return InstanceState;
 }();
-exports["default"] = InstanceState;

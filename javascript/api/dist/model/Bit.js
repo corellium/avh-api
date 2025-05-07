@@ -29,21 +29,21 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 * @enum {}
 * @readonly
 */
-var Bit = /*#__PURE__*/function () {
+var Bit = exports["default"] = /*#__PURE__*/function () {
   function Bit() {
     _classCallCheck(this, Bit);
+    /**
+     * value: 0
+     * @const
+     */
     _defineProperty(this, "0", 0);
+    /**
+     * value: 1
+     * @const
+     */
     _defineProperty(this, "1", 1);
   }
-  /**
-   * value: 0
-   * @const
-   */
-  /**
-   * value: 1
-   * @const
-   */
-  _createClass(Bit, null, [{
+  return _createClass(Bit, null, [{
     key: "constructFromObject",
     value:
     /**
@@ -55,6 +55,4 @@ var Bit = /*#__PURE__*/function () {
       return object;
     }
   }]);
-  return Bit;
 }();
-exports["default"] = Bit;

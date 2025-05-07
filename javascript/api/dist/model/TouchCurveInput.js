@@ -44,7 +44,7 @@ var TouchCurveInput = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(TouchCurveInput, null, [{
+  return _createClass(TouchCurveInput, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -70,7 +70,6 @@ var TouchCurveInput = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return TouchCurveInput;
 }();
 /**
  * Finger Positions
@@ -83,5 +82,4 @@ TouchCurveInput.prototype['start'] = undefined;
  * @member {Object} end
  */
 TouchCurveInput.prototype['end'] = undefined;
-var _default = TouchCurveInput;
-exports["default"] = _default;
+var _default = exports["default"] = TouchCurveInput;

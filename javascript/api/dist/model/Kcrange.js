@@ -44,7 +44,7 @@ var Kcrange = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Kcrange, null, [{
+  return _createClass(Kcrange, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -70,7 +70,6 @@ var Kcrange = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Kcrange;
 }();
 /**
  * Kernel Extension
@@ -83,5 +82,4 @@ Kcrange.prototype['kext'] = undefined;
  * @member {Array.<String>} range
  */
 Kcrange.prototype['range'] = undefined;
-var _default = Kcrange;
-exports["default"] = _default;
+var _default = exports["default"] = Kcrange;

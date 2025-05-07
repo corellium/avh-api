@@ -44,7 +44,7 @@ var ProjectSettings = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(ProjectSettings, null, [{
+  return _createClass(ProjectSettings, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -73,7 +73,6 @@ var ProjectSettings = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return ProjectSettings;
 }();
 /**
  * 
@@ -92,5 +91,4 @@ ProjectSettings.prototype['internet-access'] = undefined;
  * @member {Boolean} dhcp
  */
 ProjectSettings.prototype['dhcp'] = undefined;
-var _default = ProjectSettings;
-exports["default"] = _default;
+var _default = exports["default"] = ProjectSettings;

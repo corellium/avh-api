@@ -47,7 +47,7 @@ var Team = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Team, null, [{
+  return _createClass(Team, null, [{
     key: "initialize",
     value: function initialize(obj, id, label) {
       obj['id'] = id;
@@ -79,7 +79,6 @@ var Team = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Team;
 }();
 /**
  * Team ID
@@ -98,5 +97,4 @@ Team.prototype['label'] = undefined;
  * @member {Array.<module:model/User>} users
  */
 Team.prototype['users'] = undefined;
-var _default = Team;
-exports["default"] = _default;
+var _default = exports["default"] = Team;

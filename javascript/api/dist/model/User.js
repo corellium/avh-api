@@ -48,7 +48,7 @@ var User = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(User, null, [{
+  return _createClass(User, null, [{
     key: "initialize",
     value: function initialize(obj, id, label, name, email) {
       obj['id'] = id;
@@ -88,7 +88,6 @@ var User = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return User;
 }();
 /**
  * User ID
@@ -119,5 +118,4 @@ User.prototype['email'] = undefined;
  * @member {Boolean} administrator
  */
 User.prototype['administrator'] = undefined;
-var _default = User;
-exports["default"] = _default;
+var _default = exports["default"] = User;

@@ -44,7 +44,7 @@ var AgentIcons = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(AgentIcons, null, [{
+  return _createClass(AgentIcons, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var AgentIcons = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return AgentIcons;
 }();
 /**
  * The data for an icon
  * @member {Blob} icon
  */
 AgentIcons.prototype['icon'] = undefined;
-var _default = AgentIcons;
-exports["default"] = _default;
+var _default = exports["default"] = AgentIcons;

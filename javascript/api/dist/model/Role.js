@@ -47,7 +47,7 @@ var Role = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(Role, null, [{
+  return _createClass(Role, null, [{
     key: "initialize",
     value: function initialize(obj, role, project, user) {
       obj['role'] = role;
@@ -80,7 +80,6 @@ var Role = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return Role;
 }();
 /**
  * 
@@ -117,5 +116,4 @@ Role['RoleEnum'] = {
    */
   "_member_": "_member_"
 };
-var _default = Role;
-exports["default"] = _default;
+var _default = exports["default"] = Role;

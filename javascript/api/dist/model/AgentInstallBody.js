@@ -44,7 +44,7 @@ var AgentInstallBody = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(AgentInstallBody, null, [{
+  return _createClass(AgentInstallBody, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var AgentInstallBody = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return AgentInstallBody;
 }();
 /**
  * path to app to install
  * @member {String} path
  */
 AgentInstallBody.prototype['path'] = undefined;
-var _default = AgentInstallBody;
-exports["default"] = _default;
+var _default = exports["default"] = AgentInstallBody;

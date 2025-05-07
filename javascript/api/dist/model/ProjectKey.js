@@ -46,7 +46,7 @@ var ProjectKey = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(ProjectKey, null, [{
+  return _createClass(ProjectKey, null, [{
     key: "initialize",
     value: function initialize(obj, kind, key) {
       obj['kind'] = kind;
@@ -90,7 +90,6 @@ var ProjectKey = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return ProjectKey;
 }();
 /**
  * keyId
@@ -151,5 +150,4 @@ ProjectKey['KindEnum'] = {
    */
   "adb": "adb"
 };
-var _default = ProjectKey;
-exports["default"] = _default;
+var _default = exports["default"] = ProjectKey;

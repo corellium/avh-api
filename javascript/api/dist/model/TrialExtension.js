@@ -44,7 +44,7 @@ var TrialExtension = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(TrialExtension, null, [{
+  return _createClass(TrialExtension, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -76,7 +76,6 @@ var TrialExtension = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return TrialExtension;
 }();
 /**
  * how many additional days?
@@ -101,5 +100,4 @@ TrialExtension.prototype['denied'] = undefined;
  * @member {String} deniedReason
  */
 TrialExtension.prototype['deniedReason'] = undefined;
-var _default = TrialExtension;
-exports["default"] = _default;
+var _default = exports["default"] = TrialExtension;

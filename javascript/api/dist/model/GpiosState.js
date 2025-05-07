@@ -45,7 +45,7 @@ var GpiosState = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(GpiosState, null, [{
+  return _createClass(GpiosState, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -74,7 +74,6 @@ var GpiosState = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return GpiosState;
 }();
 /**
  * @member {module:model/GpioStateDefinition} led
@@ -90,5 +89,4 @@ GpiosState.prototype['button'] = undefined;
  * @member {module:model/GpioStateDefinition} switch
  */
 GpiosState.prototype['switch'] = undefined;
-var _default = GpiosState;
-exports["default"] = _default;
+var _default = exports["default"] = GpiosState;

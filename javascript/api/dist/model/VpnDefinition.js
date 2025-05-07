@@ -44,7 +44,7 @@ var VpnDefinition = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(VpnDefinition, null, [{
+  return _createClass(VpnDefinition, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -70,7 +70,6 @@ var VpnDefinition = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return VpnDefinition;
 }();
 /**
  * 
@@ -83,5 +82,4 @@ VpnDefinition.prototype['proxy'] = undefined;
  * @member {Array.<Object>} listeners
  */
 VpnDefinition.prototype['listeners'] = undefined;
-var _default = VpnDefinition;
-exports["default"] = _default;
+var _default = exports["default"] = VpnDefinition;

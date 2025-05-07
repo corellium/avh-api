@@ -29,51 +29,51 @@ function _toPrimitive(t, r) { if ("object" != _typeof(t) || !t) return t; var e 
 * @enum {}
 * @readonly
 */
-var InstanceBootOptionsAdditionalTag = /*#__PURE__*/function () {
+var InstanceBootOptionsAdditionalTag = exports["default"] = /*#__PURE__*/function () {
   function InstanceBootOptionsAdditionalTag() {
     _classCallCheck(this, InstanceBootOptionsAdditionalTag);
+    /**
+     * value: "kalloc"
+     * @const
+     */
     _defineProperty(this, "kalloc", "kalloc");
+    /**
+     * value: "gpu"
+     * @const
+     */
     _defineProperty(this, "gpu", "gpu");
+    /**
+     * value: "no-keyboard"
+     * @const
+     */
     _defineProperty(this, "no-keyboard", "no-keyboard");
+    /**
+     * value: "nodevmode"
+     * @const
+     */
     _defineProperty(this, "nodevmode", "nodevmode");
+    /**
+     * value: "sep-cons-ext"
+     * @const
+     */
     _defineProperty(this, "sep-cons-ext", "sep-cons-ext");
+    /**
+     * value: "iboot-jailbreak"
+     * @const
+     */
     _defineProperty(this, "iboot-jailbreak", "iboot-jailbreak");
+    /**
+     * value: "llb-jailbreak"
+     * @const
+     */
     _defineProperty(this, "llb-jailbreak", "llb-jailbreak");
+    /**
+     * value: "rom-jailbreak"
+     * @const
+     */
     _defineProperty(this, "rom-jailbreak", "rom-jailbreak");
   }
-  /**
-   * value: "kalloc"
-   * @const
-   */
-  /**
-   * value: "gpu"
-   * @const
-   */
-  /**
-   * value: "no-keyboard"
-   * @const
-   */
-  /**
-   * value: "nodevmode"
-   * @const
-   */
-  /**
-   * value: "sep-cons-ext"
-   * @const
-   */
-  /**
-   * value: "iboot-jailbreak"
-   * @const
-   */
-  /**
-   * value: "llb-jailbreak"
-   * @const
-   */
-  /**
-   * value: "rom-jailbreak"
-   * @const
-   */
-  _createClass(InstanceBootOptionsAdditionalTag, null, [{
+  return _createClass(InstanceBootOptionsAdditionalTag, null, [{
     key: "constructFromObject",
     value:
     /**
@@ -85,6 +85,4 @@ var InstanceBootOptionsAdditionalTag = /*#__PURE__*/function () {
       return object;
     }
   }]);
-  return InstanceBootOptionsAdditionalTag;
 }();
-exports["default"] = InstanceBootOptionsAdditionalTag;

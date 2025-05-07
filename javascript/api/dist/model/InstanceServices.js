@@ -45,7 +45,7 @@ var InstanceServices = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(InstanceServices, null, [{
+  return _createClass(InstanceServices, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -68,11 +68,9 @@ var InstanceServices = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return InstanceServices;
 }();
 /**
  * @member {module:model/VpnDefinition} vpn
  */
 InstanceServices.prototype['vpn'] = undefined;
-var _default = InstanceServices;
-exports["default"] = _default;
+var _default = exports["default"] = InstanceServices;

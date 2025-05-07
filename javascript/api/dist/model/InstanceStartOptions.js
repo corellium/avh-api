@@ -44,7 +44,7 @@ var InstanceStartOptions = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(InstanceStartOptions, null, [{
+  return _createClass(InstanceStartOptions, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -67,12 +67,10 @@ var InstanceStartOptions = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return InstanceStartOptions;
 }();
 /**
  * Start device paused
  * @member {Boolean} paused
  */
 InstanceStartOptions.prototype['paused'] = undefined;
-var _default = InstanceStartOptions;
-exports["default"] = _default;
+var _default = exports["default"] = InstanceStartOptions;

@@ -44,7 +44,7 @@ var InviteRevokeParamsIds = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(InviteRevokeParamsIds, null, [{
+  return _createClass(InviteRevokeParamsIds, null, [{
     key: "initialize",
     value: function initialize(obj) {}
 
@@ -64,7 +64,5 @@ var InviteRevokeParamsIds = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return InviteRevokeParamsIds;
 }();
-var _default = InviteRevokeParamsIds;
-exports["default"] = _default;
+var _default = exports["default"] = InviteRevokeParamsIds;

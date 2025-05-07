@@ -46,7 +46,7 @@ var ValidationError = /*#__PURE__*/function () {
    * This method is used by the constructors of any subclasses, in order to implement multiple inheritance (mix-ins).
    * Only for internal use.
    */
-  _createClass(ValidationError, null, [{
+  return _createClass(ValidationError, null, [{
     key: "initialize",
     value: function initialize(obj, error, errorID) {
       obj['error'] = error;
@@ -78,7 +78,6 @@ var ValidationError = /*#__PURE__*/function () {
       return obj;
     }
   }]);
-  return ValidationError;
 }();
 /**
  * Error text
@@ -110,5 +109,4 @@ ValidationError['ErrorIDEnum'] = {
    */
   "ValidationError": "ValidationError"
 };
-var _default = ValidationError;
-exports["default"] = _default;
+var _default = exports["default"] = ValidationError;
